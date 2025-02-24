@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        width:100%;
+        height:100vh;
+    }
+    .title{
+        width:100%;
+        height:80px;
+        background-color:darkblue;
+        font-size:50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:white;
+    }
+    .holder{
+        display:grid;
+        grid-template-columns:repeat(10, 20%);
+        grid-template-rows:repeat(1, 30px);
+        background-color:blue;
+    }
+    .ruta1{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:white;
+        font-size:20px;
+    }
+    .ruta1 a{
+        color:white;
+    }
+    .ruta2{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:lightblue;
+        width:80%;
+        height:10vh;
+        margin-left:10%;
+        margin-top:50px;
+        border-radius:22px;
+        font-size:16px;
+    }
+    .tjänstgrid{
+        display:grid;
+        grid-template-columns:repeat(2,48%);
+        grid-template-rows:repeat(6,24vh);
+        margin-top: 50px;
+        margin-left:5%;
+    }
+    .ruta3{
+        display:flex;
+        background-color:lightblue;
+        align-items:center;
+        border-style: solid;
+        border-right-width:5px;
+        border-top-width: 0px;
+        border-left-width:5px;
+        border-bottom-width:5px;
+        border-color:darkblue;
+    }
+    .ruta31{
+        display:flex;
+        background-color:lightblue;
+        align-items:center;
+        border-style: solid;
+        border-right-width:5px;
+        border-top-width: 0px;
+        border-left-width:5px;
+        border-bottom-width:5px;
+        border-color:darkblue;
+        border-bottom-left-radius:20px;
+    }
+    .tjänstrubrik{
+        font-size:30px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-style:solid;
+        border-right-width:5px;
+        border-top-width: 0px;
+        border-left-width:5px;
+        border-bottom-width:0px;
+        border-color:darkblue;
+    }
+    .tjänstrubrik1{
+        font-size:30px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-style:solid;
+        border-right-width:5px;
+        border-top-width: 0px;
+        border-left-width:0px;
+        border-bottom-width:0px;
+        border-color:darkblue;
+    }
+    .tjänstrubrik2{
+        font-size:30px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-style:solid;
+        border-right-width:5px;
+        border-top-width: 5px;
+        border-left-width:0px;
+        border-bottom-width:0px;
+        border-color:darkblue;
+        border-top-right-radius:20px;
+    }
+    .tjänstrubrik3{
+        font-size:30px;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-style:solid;
+        border-right-width:5px;
+        border-top-width: 5px;
+        border-left-width:5px;
+        border-bottom-width:0px;
+        border-color:darkblue;
+        border-top-left-radius:20px;
+    }
+    .ruta4{
+        width:100%;
+        height:60px;
+        color:white;
+        background-color:darkblue;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-top:50px;
+        font-size:25px;
+    }
+    .ruta5{
+        display:flex;
+        background-color:lightblue;
+        align-items:center;
+        border-style: solid;
+        border-right-width: 5px;
+        border-top-width: 0px;
+        border-left-width:0px;
+        border-bottom-width:5px;
+        border-color:darkblue;
+    }
+    .ruta51{
+        display:flex;
+        background-color:lightblue;
+        align-items:center;
+        border-style: solid;
+        border-right-width: 5px;
+        border-top-width: 0px;
+        border-left-width:0px;
+        border-bottom-width:5px;
+        border-color:darkblue;
+        border-bottom-right-radius:20px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="title">Anderssons Digital</div>
+        <div class="holder">
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital hemsida.html">Hemsida</a></div>
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital Tjänster.html">Tjänster</a></div>
+            <div class="ruta1"></div>
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital Om oss.html">Om oss</a></div>
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital Kontakta.html">Kontakta</a></div>
+        </div>
+        <div class="ruta2"><p><h1>Tjänster</h1></p></div>
+        <div class="tjänstgrid">
+            <div class="tjänstrubrik3">SEO (Sökmotoroptimering)</div>
+            <div class="tjänstrubrik2">PPC (Betalda annonser)</div>
+            <div class="ruta3">SEO handlar om att optimera en webbplats för att ranka högre i sökmotorer som Google, vilket ökar den organiska trafiken. Detta görs genom tekniska förbättringar, innehållsoptimering och länkstrategier. Målet är att göra det lättare för potentiella kunder att hitta ditt företag utan att behöva betala för annonser.</div>
+            <div class="ruta5">PPC (Pay-Per-Click) är en marknadsföringsmodell där företag betalar för varje klick på sina annonser, exempelvis via Google Ads eller Facebook Ads. Genom att använda riktade kampanjer kan man nå specifika målgrupper och snabbt öka trafiken och försäljningen. En väloptimerad PPC-strategi ger hög ROI genom att maximera synlighet och konverteringar.</div>
+            <div class="tjänstrubrik">Sociala medier</div>
+            <div class="tjänstrubrik1">Content marketing</div>
+            <div class="ruta3">Sociala medier-marknadsföring handlar om att skapa och dela innehåll på plattformar som Facebook, Instagram, LinkedIn och TikTok för att bygga varumärkeskännedom och engagemang. Genom både organiska inlägg och betalda annonser kan företag nå rätt målgrupp och driva trafik till sin webbplats. En effektiv strategi bygger på att förstå målgruppens beteende och skapa innehåll som engagerar och konverterar.</div>
+            <div class="ruta5">Content marketing innebär att skapa värdefullt och relevant innehåll för att attrahera, engagera och behålla en målgrupp. Det kan vara blogginlägg, guider, videor eller nyhetsbrev som hjälper kunder att lösa problem eller fatta köpbeslut. En långsiktig strategi skapar förtroende, stärker varumärket och driver organisk trafik.</div>
+            <div class="tjänstrubrik">Webbplatsanalys</div>
+            <div class="tjänstrubrik1">Branding</div>
+            <div class="ruta31">Webbplatsanalys innebär att granska hur besökare beter sig på en webbplats för att identifiera förbättringsområden. Konverteringsoptimering handlar om att justera design, texter och funktioner för att fler besökare ska genomföra önskade handlingar, som köp eller kontaktförfrågningar. Genom att analysera data och testa förändringar kan man successivt öka webbplatsens effektivitet.</div>
+            <div class="ruta51">Branding handlar om att skapa en stark och tydlig identitet för ett företag genom logotyp, färger, typsnitt och tonalitet. En genomtänkt design skapar igenkänning och förtroende, vilket gör att kunderna lättare associerar varumärket med dess värden. En stark visuell identitet skiljer företaget från konkurrenter och gör det mer minnesvärt.</div>
+        </div>
+        <div class="ruta4">Andersson digital</div>
+    </div>
+</body>
+</html>

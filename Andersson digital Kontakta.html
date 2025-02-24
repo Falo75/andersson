@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        width:100%;
+        height:100vh;
+    }
+    .title{
+        width:100%;
+        height:80px;
+        background-color:darkblue;
+        font-size:50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:white;
+    }
+    .holder{
+        display:grid;
+        grid-template-columns:repeat(10, 20%);
+        grid-template-rows:repeat(1, 30px);
+        background-color:blue;
+    }
+    .ruta1{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:white;
+        font-size:20px;
+    }
+    .ruta1 a{
+        color:white;
+    }
+    .ruta2{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:lightblue;
+        width:80%;
+        height:10vh;
+        margin-left:10%;
+        margin-top:50px;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        font-size:16px;
+    }
+    .ruta3{
+    display:flex;
+        align-items:center;
+        justify-content:center;
+        background:lightblue;
+        width:80%;
+        height:10vh;
+        margin-left:10%;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px;
+        font-size:25px;
+    }
+    .kontakt{
+        display:grid;
+        grid-template-rows:repeat(3,80px);
+        grid-template-columns:repeat(1,40%);
+        margin-left:5%;
+        margin-top:50px;
+    }
+    .kontakt1{
+    display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        font-size:30px;
+    }
+    .kontakt2{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+    }
+    .kontakt3{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px;
+    }
+    .meddelande{
+        display:grid;
+        grid-template-rows:repeat(6,80px);
+        grid-template-columns:repeat(1,90%);
+        margin-left:55%;
+        margin-top:-240px;
+    }
+    .meddelande1{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        font-size:30px;
+    }
+    .meddelande2{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+    }
+    .meddelande3{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px;
+    }
+    .ruta5{
+        width:100%;
+        height:60px;
+        color:white;
+        background-color:darkblue;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-top:50px;
+        font-size:25px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="title">Anderssons Digital</div>
+        <div class="holder">
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital hemsida.html">Hemsida</a></div>
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital Tjänster.html">Tjänster</a></div>
+            <div class="ruta1"></div>
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital Om oss.html">Om oss</a></div>
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital Kontakta.html">Kontakta</a></div>
+        </div>
+        <div class="ruta2"><p><h1>Kontakta</h1></p></div>
+        <div class="ruta3">Har du frågor eller vill du veta hur vi kan hjälpa ditt företag att växa digitalt? Vi finns här för att hjälpa dig! Hör av dig via e-post, telefon eller fyll i formuläret nedan – vi svarar inom 24 timmar.</div>
+        <div class="kontakt">
+            <div class="kontakt1">Våra kontaktuppgifter</div>
+            <div class="kontakt2">E-post: kontakt@anderssondigital.se<br>Telefon: +46 70 123 45 67<br>Adress: Storgatan 12, 111 22 Stockholm</div>
+            <div class="kontakt3">Öppettider: Mån–Fre: 09:00–17:00<br>Följ oss på sociala medier:Linkedin,Instagram,Facebook</div>
+        </div>
+        <div class="meddelande">
+            <div class="meddelande1">Skicka ett meddelande</div>
+            <div class="meddelande2">Har du en fråga eller vill du komma i kontakt med oss? Skicka ett meddelande via formuläret nedan, så hör vi av oss så snart vi kan!<br><br>Fyll i dina uppgifter:</div>
+            <div class="meddelande2">Namn:(obligatorisk)<input type="text" size="35"></div>
+            <div class="meddelande2">E-post (obligatorisk)<input type="text" size="35"></div>
+            <div class="meddelande2">Telefonnummer (valfritt)<input type="text" size="35"></div>
+            <div class="meddelande2">Meddelande (obligatorisk)<input type="text" size="35"></div>
+            <div class="meddelande3"><button>Skicka</button></div>
+        </div>
+        <div class="ruta5">Andersson digital</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main{
+        width:100%;
+        height:100vh;
+    }
+    .title{
+        width:100%;
+        height:80px;
+        background-color:darkblue;
+        font-size:50px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:white;
+    }
+    .holder{
+        display:grid;
+        grid-template-columns:repeat(10, 20%);
+        grid-template-rows:repeat(1, 30px);
+        background-color:blue;
+    }
+    .ruta1{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        color:white;
+        font-size:20px;
+    }
+    .ruta1 a{
+        color:white;
+    }
+    .ruta2{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:lightblue;
+        width:80%;
+        height:40px;
+        margin-left:10%;
+        margin-top:40px;
+        border-top-right-radius:22px;
+        border-top-left-radius:22px;
+        font-size:16px;
+    }
+    .ruta3{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background:lightblue;
+        width:80%;
+        height:70px;
+        margin-left:10%;
+        border-bottom-right-radius:22px;
+        border-bottom-left-radius:22px;
+        font-size:23px;
+    }
+    .historia{
+        margin-left:5%;
+        margin-top:50px;
+        display:grid;
+        grid-template-rows:repeat(2,180px);
+        grid-template-columns:repeat(1,40%);
+    }
+    .historia1{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:40px;
+        background-color:lightblue;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+    }
+    .historia2{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:20px;
+        background-color:lightblue;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px;
+    }
+    .värderingar{
+        margin-left:55%;
+        margin-top:-360px;
+        display:grid;
+        grid-template-rows:repeat(2,180px);
+        grid-template-columns:repeat(1,90%);
+    }
+    .värderingar1{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:40px;
+        background-color:lightblue;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+    }
+    .värderingar2{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-size:20px;
+        background-color:lightblue;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px;
+    }
+    .arbetare{
+        display:grid;
+        grid-template-rows:repeat(11,80px);
+        grid-template-columns:repeat(1,40%);
+        margin-left:5%;
+        margin-top:50px;
+    }
+    .arbetare1{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        font-size:30px;
+    }
+    .arbetare2{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        font-size:23px;
+    }
+    .arbetare3{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+    }
+    .arbetare4{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px;
+    }
+    .kunder{
+        display:grid;
+        grid-template-rows:repeat(11,80px);
+        grid-template-columns:repeat(1,90%);
+        margin-left:55%;
+        margin-top:-880px;
+    }
+    .kunder1{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
+        font-size:30px;
+    }
+    .kunder2{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+    }
+    .kunder3{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        font-size:30px;
+    }
+    .kunder4{
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        background-color:lightblue;
+        border-bottom-left-radius:20px;
+        border-bottom-right-radius:20px;
+    }
+    .ruta5{
+        width:100%;
+        height:60px;
+        color:white;
+        background-color:darkblue;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        margin-top:50px;
+        font-size:25px;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="title">Anderssons Digital</div>
+        <div class="holder">
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital hemsida.html">Hemsida</a></div>
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital Tjänster.html">Tjänster</a></div>
+            <div class="ruta1"></div>
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital Om oss.html">Om oss</a></div>
+            <div class="ruta1"><a href="http://127.0.0.1:3000/php/andersson digital/Andersson digital Kontakta.html">Kontakta</a></div>
+        </div>
+        <div class="ruta2"><h1>Om oss</h1></div>
+        <div class="ruta3">På Andersson Digital hjälper vi företag att växa genom smart digital marknadsföring. Med expertis inom SEO, annonsering och sociala medier skapar vi strategier som ger verkliga resultat. Boka ett möte idag!</div>
+        <div class="historia">
+            <div class="historia1">Historia</div>
+            <div class="historia2">Andersson Digital grundades av Erik Andersson, en expert inom digital marknadsföring med över 10 års erfarenhet. Han såg att många företag kämpade med att nå sin målgrupp online och ville skapa en byrå som kombinerar strategi, data och kreativitet för att leverera verkliga resultat. Idag har vi hjälpt över 100 företag att växa digitalt.</div>
+        </div>
+        <div class="värderingar">
+            <div class="värderingar1">Värderingar</div>
+            <div class="värderingar2">Transparens – Vi är öppna med vår strategi och våra resultat.<br>Resultatfokus – Vi optimerar och anpassar våra insatser för att maximera kundernas framgång.<br>Kreativitet & data – Vi kombinerar kreativa idéer med data och analys för bästa effekt.<br>Långsiktiga relationer – Vi ser våra kunder som partners och växer tillsammans.</div>
+        </div>
+        <div class="arbetare">
+            <div class="arbetare1">Medarbetare</div>
+            <div class="arbetare2">Erik Andersson – Grundare & Digital Strateg</div>
+            <div class="arbetare3">Med över 10 års erfarenhet inom digital marknadsföring startade Erik Andersson Andersson Digital för att hjälpa företag att växa online. Hans expertis ligger inom SEO, datadriven marknadsföring och strategisk affärsutveckling. När han inte analyserar söktrender kan du hitta honom på en padelbana eller med en bra bok om entreprenörskap.</div>
+            <div class="arbetare2">Anna Larsson – PPC-specialist & Growth Hacker</div>
+            <div class="arbetare3">Anna är expert på betalda annonser och har hanterat kampanjer med miljontals kronor i budget. Hon optimerar Google Ads och sociala medieannonser för att maximera ROI för våra kunder. På fritiden älskar hon att testa nya marknadsföringstrender och dricka specialkaffe.</div>
+            <div class="arbetare2">Johan Persson – Content Manager & SEO-expert</div>
+            <div class="arbetare3">Johan skapar innehåll som både engagerar och rankar högt på Google. Med en bakgrund inom journalistik och copywriting ser han till att varje blogginlägg, landningssida och annons ger värde till både läsare och sökmotorer. Hans största passion är storytelling – och att vinna pubquiz med obskyr allmänbildning.</div>
+            <div class="arbetare2">Sara Nilsson – Social Media Manager</div>
+            <div class="arbetare3">Sara är kreativiteten bakom våra kunders sociala medier-strategier. Hon skapar engagerande innehåll, hanterar communitys och analyserar data för att säkerställa att varje inlägg når rätt målgrupp. När hon inte scrollar TikTok för inspiration är hon ute och fotar naturbilder.</div>
+            <div class="arbetare2">Markus Svensson – Webbanalytiker & CRO-expert</div>
+            <div class="arbetare4">Markus är den som djupdyker i siffrorna för att förbättra kundernas konverteringsgrad. Genom datadriven analys och A/B-testning ser han till att varje besökare har en smidig väg från intresse till konvertering. Han älskar att nörda ner sig i Google Analytics och bygga dashboards som förenklar beslut.</div>
+        </div>
+        <div class="kunder">
+            <div class="kunder1">Våra framgångar och kunder</div>
+            <div class="kunder2">Vi på Andersson Digital brinner för att skapa verkliga resultat för våra kunder. Oavsett om det handlar om att öka försäljningen, förbättra synligheten eller sänka annonskostnaderna, levererar vi strategier som gör skillnad. Här är några av våra framgångar:</div>
+            <div class="kunder3">Resultat i siffror</div>
+            <div class="kunder2">+250% ökad e-handelsförsäljning för en modebutik online.<br>110% mer organisk trafik genom SEO-strategier för ett techföretag.<br>5x fler bokningar via sociala medier-annonser för en restaurang.<br>30% lägre annonskostnader genom smart PPC-optimering för en B2B-kund.</div>
+            <div class="kunder3">Case studies-framgångsrika projekt</div>
+            <div class="kunder2">Utmaning: Kunden kämpade med låg organisk trafik och få konverteringar.<br>Lösning: Vi genomförde en SEO-optimering, förbättrade produktbeskrivningar och skapade en strategisk innehållsplan.</div>
+            <div class="kunder2">Resultat:<br>+180% ökning av organisk trafik inom 6 månader.<br>40% fler konverteringar från webbplatsbesökare.<br>Ökad synlighet på Google med flera topprankningar på viktiga sökord.</div>
+            <div class="kunder3">Vad säger våra kunder?</div>
+            <div class="kunder2">"Andersson Digital hjälpte oss att skala upp vår onlineförsäljning med 250%! Vi har aldrig sett så starka resultat tidigare."<br> — Anna Jansson, VD på ModeOnline</div>
+            <div class="kunder4">"Tack vare deras SEO-expertis har vi ökat vår organiska trafik med 110%. Rekommenderar starkt!"<br> — Johan Karlsson, Marknadschef på TechSolutions</div>
+        </div>
+        <div class="ruta5">Andersson digital</div>
+    </div>
+</body>
+</html>
